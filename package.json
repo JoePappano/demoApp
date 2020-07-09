@@ -1,0 +1,25 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "description": "This is my demo app for Express and Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoePappano/demoApp.git"
+  },
+  "author": "Joe Pappano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoePappano/demoApp/issues"
+  },
+  "homepage": "https://github.com/JoePappano/demoApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
