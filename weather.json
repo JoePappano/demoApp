@@ -1,0 +1,169 @@
+{
+    "wx:weatherDataResponse": {
+        "_attributes": {
+            "xmlns": "http://weather.dtn.com/rest-3.4/doc/",
+            "xmlns:avwx": "http://www.eurocontrol.int/avwx/1.1",
+            "xmlns:notam": "http://weather.dtn.com/rest-3.4/doc/notam",
+            "xmlns:ob": "http://weather.dtn.com/rest-3.4/doc/observation",
+            "xmlns:wx": "http://weather.dtn.com/rest-3.4/doc/",
+            "xmlns:wxGeo": "http://weather.dtn.com/rest-3.4/doc/wxGeo",
+            "xmlns:wxxm": "http://www.eurocontrol.int/wx/1.1",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "xsi:schemaLocation": "http://weather.dtn.com/rest-3.4/doc/ http://weather.dtn.com/rest-3.4/doc/TDTNWeatherDataService.xsd"
+        },
+        "wx:locationResponseList": {
+            "wx:locationResponse": {
+                "wx:startDate": {
+                    "_text": "2020-07-08T00:00:00+00:00"
+                },
+                "wx:endDate": {
+                    "_text": "2020-07-08T00:00:00+00:00"
+                },
+                "wx:validDateTime": {
+                    "_text": "2020-07-08T00:00:00+00:00"
+                },
+                "wx:stationLatitude": {
+                    "_text": "36.77"
+                },
+                "wx:stationLongitude": {
+                    "_text": "-96.21"
+                },
+                "wx:precipitationAmountList": {
+                    "wx:values": {
+                        "_text": "0.00"
+                    },
+                    "wx:uom": {
+                        "_text": "in"
+                    }
+                },
+                "wx:solarRadiationList": {
+                    "wx:values": {
+                        "_text": "322.0"
+                    },
+                    "wx:uom": {
+                        "_text": "w/m2"
+                    }
+                },
+                "wx:temperatureList": {
+                    "wx:values": {
+                        "_text": "91.2"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:dewPointList": {
+                    "wx:values": {
+                        "_text": "70.5"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:relativeHumidityList": {
+                    "_text": "51"
+                },
+                "wx:heatIndexList": {
+                    "wx:values": {
+                        "_text": "98.0"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:windChillList": {
+                    "wx:values": {
+                        "_text": "91.2"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:feelsLikeList": {
+                    "wx:values": {
+                        "_text": "98.0"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:windDirectionList": {
+                    "wx:values": {
+                        "_text": "209.0"
+                    },
+                    "wx:uom": {
+                        "_text": "deg"
+                    }
+                },
+                "wx:windSpeedList": {
+                    "wx:values": {
+                        "_text": "5.0"
+                    },
+                    "wx:uom": {
+                        "_text": "mph"
+                    }
+                },
+                "wx:windGustList": {
+                    "wx:values": {
+                        "_text": "0.0"
+                    },
+                    "wx:uom": {
+                        "_text": "mph"
+                    }
+                },
+                "wx:wetBulbTemperatureList": {
+                    "wx:values": {
+                        "_text": "76.3"
+                    },
+                    "wx:uom": {
+                        "_text": "F"
+                    }
+                },
+                "wx:minutesOfSunshineList": {
+                    "wx:values": {
+                        "_text": "59"
+                    },
+                    "wx:uom": {
+                        "_text": "min"
+                    }
+                },
+                "wx:cloudCoverList": {
+                    "_text": "2"
+                },
+                "wx:precipitationTypeList": {
+                    "_text": "NONE"
+                },
+                "wx:weatherDescriptionList": {
+                    "_text": "Sunny"
+                },
+                "wx:seaLevelPressureList": {
+                    "wx:values": {
+                        "_text": "1010.9"
+                    },
+                    "wx:uom": {
+                        "_text": "mBar"
+                    }
+                },
+                "wx:visibilityList": {
+                    "wx:values": {
+                        "_text": "10"
+                    },
+                    "wx:uom": {
+                        "_text": "SM"
+                    }
+                },
+                "wx:weatherCodeList": {
+                    "_text": "21"
+                },
+                "wx:peakWindSpeedList": {
+                    "wx:values": {
+                        "_text": "5.0"
+                    },
+                    "wx:uom": {
+                        "_text": "mph"
+                    }
+                }
+            }
+        }
+    }
+}

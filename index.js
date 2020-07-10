@@ -2,20 +2,13 @@ const express = require('express');
 const app = express();
 const PORT = 3000
 
-const handlebars = require('express-handlebars');
-
-app.set('view engine', 'hbs');
-
-app.engine('hbs', handlebars({
-    layoutsDir: `${__dirname}/views/layouts`,
-    extname: 'hbs',
-    defaultLayout: 'index'
-}));
-
-app.use(express.static('public'));
+const weatherDoc =  require('./weather.json');
 
 app.get('/', (req, res) => {
-    res.render('main');
+    let weatherDocTemp = weatherDoc['wx:weatherDataResponse']['wx:locationResponseList']['wx:locationResponse']['wx:temperatureList']['wx:values']['_text'];
+    let weatherDocDegree = weatherDoc['wx:weatherDataResponse']['wx:locationResponseList']['wx:locationResponse']['wx:temperatureList']['wx:uom']['_text'];
+
+    res.send(`Today's Current Hourly Temp: ` + weatherDocTemp + '*' + weatherDocDegree);
 })
 
 app.listen(PORT, () => {
